@@ -147,6 +147,11 @@ const routes = [
 				component: () => import("@/pages/desk/Contacts.vue"),
 			},
 			{
+				path: "customerledger",
+				name: "CustomerLedger",
+				component: () => import("@/pages/desk/CustomerLedger.vue"),
+			},
+			{
 				path: "contacts/:contactId",
 				name: "Contact",
 				component: () => import("@/pages/desk/Contact.vue"),

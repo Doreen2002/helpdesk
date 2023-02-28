@@ -319,7 +319,6 @@
 
 <script>
 import { Dropdown, Avatar } from "frappe-ui"
-
 import AccordionCustomer from "@/components/global/AccordionCustomer.vue"
 import CustomIcons from "@/components/desk/global/CustomIcons.vue"
 import NewContactDialog from "@/components/desk/global/NewContactDialog.vue"

@@ -43,6 +43,7 @@ import CustomerSatisfactionChart from "@/components/desk/dashboard/CustomerSatis
 import SlaSummaryCards from "@/components/desk/dashboard/SlaSummaryCards.vue"
 import CustomIcons from "@/components/desk/global/CustomIcons.vue"
 import { onMounted, ref, inject } from "vue"
+
 export default {
 	name: "Dashboard",
 	components: {

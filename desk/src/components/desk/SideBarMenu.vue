@@ -279,6 +279,13 @@ export default {
 				},
 			},
 			{
+				label: "Customer Ledger",
+				icon: "customers",
+				to: {
+					path: "/frappedesk/customerledger",
+				},
+			},
+			{
 				label: "Settings",
 				icon: "settings",
 				to: {
@@ -336,6 +343,7 @@ export default {
 				"frappedesk/reports": "Reports",
 				"frappedesk/customers": "Customers",
 				"frappedesk/contacts": "Contacts",
+				"/frappedesk/customerledger": "CustomerLedger",
 				"frappedesk/settings": "Settings",
 			}
 			Object.keys(routeMenuItemMap).forEach((route) => {
